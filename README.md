@@ -6,7 +6,7 @@ Reading group for the Statistical Rethinking book and accompanying lectures by R
 
 * [Original repo of the course](https://github.com/rmcelreath/stat_rethinking_2022)
 
-* [Lectures Youtube Playlist](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)
+* [Lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)
 
 * [Statistical Rethinking book website](https://xcelab.net/rm/statistical-rethinking/)
 
