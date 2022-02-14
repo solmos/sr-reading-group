@@ -34,7 +34,7 @@ We can also use Issues in this repo to ask questions, discuss reading group logi
 
 ## Calendar
 
-| Meeting date | Reading                                          | Relevant Lectures | Session Leader | Homework   |
+| Meeting date | Book chapter                                     | Relevant Lectures | Session Leader | Homework   |
 |--------------|--------------------------------------------------|-------------------|----------------|------------|
 | February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio Olmos   | :tada:     |
 | March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles Milà    | :tada:     |
