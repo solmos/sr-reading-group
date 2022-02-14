@@ -36,17 +36,17 @@ We can also use Issues in this repo to ask questions, discuss reading group logi
 
 | Meeting date | Book chapter                                     | Relevant Lectures | Session Leader | Homework   |
 |--------------|--------------------------------------------------|-------------------|----------------|------------|
-| February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio Olmos   | :tada:     |
-| March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles Milà    | :tada:     |
-| March 17     | 3. Sampling the Imaginary                        | Lecture 2         | Apolline Saucy | week01.pdf |
-| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio Ranzani | :tada:     |
-| April 14     | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna Alari     | week02.pdf |
-| April 28     | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos Quijal  | :tada:     |
-| May 12       | 7. Ulysses' Compass                              | Lecture 7         | Sergio Olmos   | week03.pdf |
-| May 26       | 8. Conditional manatees                          | Lecture 7         | Carles Milà    | :tada:     |
-| June 9       | 9. Markov Chain Montecarlo                       | Lecture 8         | Apolline Saucy | week04.pdf |
-| June 23      | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Otavio Ranzani | :tada:     |
-| July 7       | 11. God Spiked the Integers                      | Lecture 10        | Anna Alari     | week05.pdf |
+| February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio         | :tada:     |
+| March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles         | :tada:     |
+| March 17     | 3. Sampling the Imaginary                        | Lecture 2         | Apolline       | week01.pdf |
+| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio         | :tada:     |
+| April 14     | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna           | week02.pdf |
+| April 28     | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos         | :tada:     |
+| May 12       | 7. Ulysses' Compass                              | Lecture 7         | Sergio         | week03.pdf |
+| May 26       | 8. Conditional manatees                          | Lecture 7         | Carles         | :tada:     |
+| June 9       | 9. Markov Chain Montecarlo                       | Lecture 8         | Apolline       | week04.pdf |
+| June 23      | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Otavio         | :tada:     |
+| July 7       | 11. God Spiked the Integers                      | Lecture 10        | Anna           | week05.pdf |
 | Summer break | :sunny:                                          | :sunny:           | :sunny:        | :sunny:    |
 | TBA          |                                                  |                   |                |            |
 
