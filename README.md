@@ -20,11 +20,11 @@ A Google Meet invitation will be circulated. If people are in the office and wan
 
 Before the meeting everyone should:
 
-1. Watch the two assigned lectures.
+1. Read the assigned book chapter.
 
-2. Read the assigned book chapters.
+2. Do the assigned homework problems (if any).
 
-3. Do the homework problems.
+You may also consider watching the corresponding lectures for clarification or reinforcement. Note that the lectures may cover topics which may span more than one chapter.
 
 The solutions to the excercises can be uploaded to this repo's [homework]() folder as an R script or an R Markdown document, so that people can see each other's approaches.
 
@@ -34,15 +34,19 @@ We can also use Issues in this repo to ask questions, discuss reading group logi
 
 ## Calendar
 
-| Meeting date | Lectures                                                  | Reading          | Session Leader |
-|--------------|-----------------------------------------------------------|------------------|----------------|
-| February 17  | 1. The Golem of Prague, 2. Bayesian Inference             | Chapters 1, 2, 3 | Sergio Olmos   |
-| March 3      | 3. Basic Regression, 4. Categories & Curves               | Chapters 4, 5    | Carles Milà    |
-| March 17     | 5. Elemental Confounds, 6. Good & Bad controls            | Chapters 5, 6    | Apolline Saucy |
-| March 31     | 7. Overfitting, 8. Markov chain Monte Carlo               | Chapters 7, 8, 9 | Otavio Ranzani |
-| April 14     | 9. Logistic and Binomial GLMs. 10. Poisson GLMs           | Chapters 10, 11  | Anna Alari     |
-| April 28     | 11. Mixtures, 12. Ordered Categories                      | Chapters 11, 12  | Marcos Quijal  |
-| May 12       | 13. Multilevel Models, 14. Multi-Multilevel Models        | Chapter 13       | Sergio Olmos   |
-| May 26       | 15. Varying Slopes, 16. Gaussian Processes                | Chapter 14       | Carles Milà    |
-| Jun 9        | 17. Measurement Error, 18. Missing Data                   | Chapter 15       | Apolline Saucy |
-| Jun 23       | 19. Beyond GLMs: State-space Models, ODEs, 20. Horoscopes | Chapters 16, 17  | Otavio Ranzani |
+| Meeting date   | Reading                                          | Relevant Lectures | Session Leader | Homework   |
+|----------------|--------------------------------------------------|-------------------|----------------|------------|
+| February 17    | 1. The Golem of Prague                           | Lecture 1         | Sergio Olmos   | -          |
+| March 3        | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles Milà    | -          |
+| March 17       | 3. Sampling the Imaginary                        | Lecture 2         | Apolline Saucy | week01.pdf |
+| March 31       | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio Ranzani | -          |
+| April 14       | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna Alari     | week02.pdf |
+| April 28       | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos Quijal  | -          |
+| May 12         | 7. Ulysses' Compass                              | Lecture 7         | Sergio Olmos   | week03.pdf |
+| May 26         | 8. Conditional manatees                          | Lecture 7         | Carles Milà    | -          |
+| June 9         | 9. Markov Chain Montecarlo                       | Lecture 8         | Apolline Saucy | week04.pdf |
+| June 23        | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Otavio Ranzani | -          |
+| July 7         | 11. God Spiked the Integers                      | Lecture 10        | Anna Alari     | week05.pdf |
+| <Summer break> | -                                                | -                 | -              | -          |
+| TBA            |                                                  |                   |                |            |
+
