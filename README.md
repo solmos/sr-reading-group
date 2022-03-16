@@ -14,7 +14,7 @@ Reading group for the Statistical Rethinking book and accompanying lectures by R
 
 ## Format
 
-We will meet **every other Thursday at 12:00**. Each time we meet, one person will lead the session and will prepare a summary presentation about the assigned content. After the presentation, we will discuss the solutions to the assigned homework problems.
+We will meet **every other Thursday at 16:00**. Each time we meet, one person will lead the session and will prepare a summary presentation about the assigned content. After the presentation, we will discuss the solutions to the assigned homework problems.
 
 A Google Meet invitation will be circulated. If people are in the office and want to meet in person we can try to book a conference room to have a hybrid meeting.
 
@@ -34,19 +34,19 @@ We can also use Issues in this repo to ask questions, discuss reading group logi
 
 ## Calendar
 
-| Meeting date | Book chapter                                     | Relevant Lectures | Session Leader | Homework   |
-|--------------|--------------------------------------------------|-------------------|----------------|------------|
-| February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio         | :tada:     |
-| March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles         | :tada:     |
-| March 17     | 3. Sampling the Imaginary                        | Lecture 2         | Apolline       | week01.pdf |
-| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio         | :tada:     |
-| April 14     | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna           | week02.pdf |
-| April 28     | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos         | :tada:     |
-| May 12       | 7. Ulysses' Compass                              | Lecture 7         | Sergio         | week03.pdf |
-| May 26       | 8. Conditional manatees                          | Lecture 7         | Carles         | :tada:     |
-| June 9       | 9. Markov Chain Montecarlo                       | Lecture 8         | Apolline       | week04.pdf |
-| June 23      | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Otavio         | :tada:     |
-| July 7       | 11. God Spiked the Integers                      | Lecture 10        | Anna           | week05.pdf |
-| Summer break | :sunny:                                          | :sunny:           | :sunny:        | :sunny:    |
-| TBA          |                                                  |                   |                |            |
+| Meeting date | Book chapter                                     | Relevant Lectures | Session Leader | Homework                                                                                       |
+|--------------|--------------------------------------------------|-------------------|----------------|------------------------------------------------------------------------------------------------|
+| February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio         | :tada:                                                                                         |
+| March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles         | :tada:                                                                                         |
+| March 17     | 3. Sampling the Imaginary                        | Lecture 2         | Apolline       | [week01.pdf](https://github.com/rmcelreath/stat_rethinking_2022/blob/main/homework/week01.pdf) |
+| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio         | :tada:                                                                                         |
+| April 28     | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna           | [week02.pdf](https://github.com/rmcelreath/stat_rethinking_2022/blob/main/homework/week02.pdf) |
+| May 12       | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos         | :tada:                                                                                         |
+| May 26       | 7. Ulysses' Compass                              | Lecture 7         | Lorenzo        | week03.pdf                                                                                     |
+| June 9       | 8. Conditional manatees                          | Lecture 7         | Ariadna        | :tada:                                                                                         |
+| June 23      | 9. Markov Chain Montecarlo                       | Lecture 8         | Sergio         | week04.pdf                                                                                     |
+| July 7       | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Carles         | :tada:                                                                                         |
+| July 21      | 11. God Spiked the Integers                      | Lecture 10        | Apolline       | week05.pdf                                                                                     |
+| Summer break | :sunny:                                          | :sunny:           | :sunny:        | :sunny:                                                                                        |
+| TBA          |                                                  |                   |                |                                                                                                |
 
