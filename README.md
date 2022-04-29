@@ -39,14 +39,13 @@ We can also use Issues in this repo to ask questions, discuss reading group logi
 | February 17  | 1. The Golem of Prague                           | Lecture 1         | Sergio         | :tada:                                                                                         |
 | March 3      | 2. Small Worlds and Large Worlds                 | Lecture 2         | Carles         | :tada:                                                                                         |
 | March 17     | 3. Sampling the Imaginary                        | Lecture 2         | Apolline       | [week01.pdf](https://github.com/rmcelreath/stat_rethinking_2022/blob/main/homework/week01.pdf) |
-| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Otavio         | :tada:                                                                                         |
+| March 31     | 4. Geocentric Models                             | Lectures 3 and 4  | Sergio         | :tada:                                                                                         |
 | April 28     | 5. The Many Variables & The Spurious Waffles     | Lectures 4 and 5  | Anna           | [week02.pdf](https://github.com/rmcelreath/stat_rethinking_2022/blob/main/homework/week02.pdf) |
 | May 12       | 6. The Haunted DAG & The Causal Terror           | Lecture 6         | Marcos         | :tada:                                                                                         |
 | May 26       | 7. Ulysses' Compass                              | Lecture 7         | Lorenzo        | week03.pdf                                                                                     |
-| June 9       | 8. Conditional manatees                          | Lecture 7         | Ariadna        | :tada:                                                                                         |
-| June 23      | 9. Markov Chain Montecarlo                       | Lecture 8         | Sergio         | week04.pdf                                                                                     |
-| July 7       | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Carles         | :tada:                                                                                         |
-| July 21      | 11. God Spiked the Integers                      | Lecture 10        | Apolline       | week05.pdf                                                                                     |
+| June 9       | 8. Conditional manatees                          | Lecture 7         | Sergio         | :tada:                                                                                         |
+| June 23      | 9. Markov Chain Montecarlo                       | Lecture 8         | Carles         | week04.pdf                                                                                     |
+| July 7       | 10. Big Entropy and the Generalized Linear Model | Lecture 9         | Apolline       | :tada:                                                                                         |
+| TBA          | 11. God Spiked the Integers                      | Lecture 10        | Anna           | week05.pdf                                                                                     |
 | Summer break | :sunny:                                          | :sunny:           | :sunny:        | :sunny:                                                                                        |
 | TBA          |                                                  |                   |                |                                                                                                |
-
