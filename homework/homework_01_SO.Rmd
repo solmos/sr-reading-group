@@ -1,0 +1,184 @@
+---
+output: github_document
+---
+
+# Statistical Rethinking, Homework, Week 1
+
+## R packages
+
+```{r, warning = FALSE, message = FALSE}
+library(rethinking)
+library(dplyr)
+library(ggplot2)
+```
+
+## Exercise 1
+
+* 4 water and 11 land observations
+* Flat prior
+* Grid approximation
+
+```{r}
+p_grid <- seq(0, 1, length.out = 1000)
+prior_1 <- rep(1, 1000)
+likelihood_1 <- dbinom(4, size = 4 + 11, prob = p_grid)
+posterior_1_unstd <- likelihood_1 * prior_1
+posterior_1 <- posterior_1_unstd / sum(posterior_1_unstd)
+
+posterior_1_df <- tibble(
+  p = p_grid,
+  posterior_prob = posterior_1
+)
+
+ggplot(posterior_1_df, aes(p, posterior_prob)) +
+  geom_line()
+```
+
+## Exercise 2
+
+In the globe tossing example:
+
+* 4 water and 2 land observations
+* Prior that is zero below p = 0.5 and a constant above p = 0.5
+* Grid approximation
+
+```{r}
+prior_2 <- ifelse(p_grid < 0.5, 0, 1)
+likelihood_2 <- dbinom(4, size = 4 + 2, prob = p_grid)
+posterior_2_unstd <- likelihood_2 * prior_2
+posterior_2 <- posterior_2_unstd / sum(posterior_2_unstd)
+posterior_2_df <- tibble(
+  p = p_grid,
+  posterior_prob = posterior_2
+)
+
+ggplot(posterior_2_df, aes(p, posterior_prob)) +
+  geom_line()
+```
+
+## Exercise 3
+
+For the posterior distribution from 2:
+
+1. Compute 89% percentile and HPDI intervals.
+
+```{r}
+samples <- sample(p_grid, size = 1e4, replace = TRUE, prob = posterior_2)
+(pi <- rethinking::PI(samples, prob = 0.89))
+(hpdi <- rethinking::HPDI(samples, 0.89))
+```
+
+2. Compare the widths of these intervals. Which is wider? Why?
+
+```{r}
+(pi_width <- unname(pi[2] - pi[1]))
+(hpdi_width <- unname(hpdi[2] - hpdi[1]))
+## TODO Why is the PI wider?
+```
+
+3. If you only had the information in the interval, what might you misunderstand about the shape of the posterior distribution?
+
+You may assume that the posterior distribution is symmetric and thus think that values below 0.5 are plausible when the model thinks they are not.
+
+```{r}
+df <- posterior_2_df %>%
+  mutate(
+    pi_interval = p > pi[1] & p < pi[2],
+    hpdi_interval = p > hpdi[1] & p < hpdi[2]
+  ) %>%
+  arrange(desc(pi_interval))
+
+df %>%
+  arrange(p)
+
+df %>%
+  ggplot(aes(p, posterior_prob)) +
+  geom_line() +
+  geom_ribbon(
+    aes(
+      ymin = 0,
+      ymax = posterior_prob,
+      fill = hpdi_interval
+    )
+  ) +
+  scale_fill_manual(values = c("white", "firebrick")) +
+  theme_minimal()
+```
+
+## Exercise 4
+
+Assume that 1-in-5 (20%) of Water samples are accidentally recorded instead as "Land".
+
+1. Write a generative simulation of this sampling process assuming that the true proportion of Water is 0.70.
+
+```{r}
+sample_unbiased <- sample(
+  c("W", "L"),
+  size = 1000,
+  replace = TRUE,
+  prob = c(0.7, 0.3)
+)
+table(sample_unbiased) / length(sample_unbiased)
+
+sample_biased <- sample_unbiased
+for (i in seq_along(sample_biased)) {
+  if (sample_unbiased[i] == "W") {
+    sample_biased[i] <- sample(
+      c("W", "L"),
+      size = 1,
+      replace = TRUE,
+      prob = c(0.8, 0.2)
+    )
+  } 
+}
+table(sample_biased) / length(sample_biased)
+```
+
+```{r, eval = FALSE}
+## TODO Why does this does not work?
+sample_biased <- ifelse(
+  sample_unbiased == "W",
+  sample(c("W", "L"), size = 1, prob = c(0.8, 0.2)),
+  sample_unbiased
+)
+```
+
+2. Simulate 20 tosses with this sampling process:
+
+```{r}
+sample_unbiased <- sample(
+  c("W", "L"),
+  size = 20,
+  replace = TRUE,
+  prob = c(0.7, 0.3)
+)
+table(sample_unbiased) / length(sample_unbiased)
+
+sample_biased <- sample_unbiased
+for (i in seq_along(sample_biased)) {
+  if (sample_unbiased[i] == "W") {
+    sample_biased[i] <- sample(
+      c("W", "L"),
+      size = 1,
+      replace = TRUE,
+      prob = c(0.8, 0.2)
+    )
+  } 
+}
+table(sample_biased)
+
+W <- sum(sample_biased == "W")
+p_grid <- seq(0, 1, length.out = 1000)
+prior <- rep(1, 1000)
+likelihood <- dbinom(W, size = 20, prob = p_grid)
+posterior_unstd <- likelihood * prior
+posterior <- posterior_unstd / sum(posterior_unstd)
+
+tibble(p = p_grid, posterior_prob = posterior) %>%
+  ggplot(aes(p, posterior_prob)) +
+  geom_line()
+
+samples <- sample(p_grid, size = 1e4, replace = TRUE, prob = posterior)
+
+```
+
